@@ -1,11 +1,12 @@
+```html
 <!doctype html>
 <html lang="fr">
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="L'A-Barbière à Castelnau-de-Médoc : coupes homme, taille de barbe et prestations barber. Réservez votre rendez-vous en ligne sur Planity.">
   <title>L'A-Barbière — Barbier à Castelnau-de-Médoc</title>
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   <style>
     :root{--black:#111;--white:#f7f7f5;--muted:#aaa;--line:#333;--paper:#e9e9e6}
     *{box-sizing:border-box}
@@ -75,17 +76,18 @@
   <div class="wrap nav">
     <a class="brand" href="#accueil"><img src="images/logo.webp" alt="Logo L'A-Barbière" style="display:block;width:142px;height:54px;object-fit:contain;background:#fff;border-radius:2px;padding:3px"><span>CASTELNAU-DE-MÉDOC</span></a>
     <nav class="navlinks"><a href="#prestations">Prestations</a><a href="#salon">Le salon</a><a href="#contact">Contact</a></nav>
-    <a class="btn" href="https://www.planity.com/la-barbiere-33480-castelnau-de-medoc" target="_blank" rel="noopener">Réserver</a>
+    <a class="btn planity-link" href="https://www.planity.com/la-barbiere-33480-castelnau-de-medoc" target="_blank" rel="noopener">Réserver</a>
   </div>
 </header>
+
 <main>
   <section class="hero" id="accueil">
     <div class="wrap hero-content">
       <div class="eyebrow">Barbier · Castelnau-de-Médoc</div>
       <h1>LE STYLE<br><em>AU</em> MASCULIN.</h1>
-      <p>Une coupe nette, une barbe soignée, un moment pour soi. Retrouvez Amélie chez L'A-Barbière, au cœur de Castelnau-de-Médoc.</p>
+      <p id="hero-description">Une coupe nette, une barbe soignée, un moment pour soi.</p>
       <div class="actions">
-        <a class="btn" href="https://www.planity.com/la-barbiere-33480-castelnau-de-medoc" target="_blank" rel="noopener">Prendre rendez-vous</a>
+        <a class="btn planity-link" href="https://www.planity.com/la-barbiere-33480-castelnau-de-medoc" target="_blank" rel="noopener">Prendre rendez-vous</a>
         <a class="btn outline" href="#prestations">Découvrir les prestations</a>
       </div>
     </div>
@@ -96,16 +98,16 @@
     <div class="wrap">
       <div class="section-head">
         <div><div class="kicker">Le savoir-faire</div><h2>Prestations<br>& tarifs.</h2></div>
-        <p class="intro">Des prestations adaptées à votre style, réalisées avec soin. La réservation se fait directement en ligne sur Planity.</p>
+        <p class="intro" id="presentation-description">Retrouvez Amélie chez L'A-Barbière, au cœur de Castelnau-de-Médoc. La réservation se fait directement en ligne sur Planity.</p>
       </div>
-      <div class="service-list">
+      <div class="service-list" id="service-list">
         <div class="service"><h3>Coupe homme</h3><span class="duration">30 min</span><span class="price">23 €</span></div>
         <div class="service"><h3>Taille de barbe</h3><span class="duration">30 min</span><span class="price">15 €</span></div>
         <div class="service"><h3>Coupe & taille de barbe</h3><span class="duration">1 h</span><span class="price">34 €</span></div>
         <div class="service"><h3>Coupe enfant — moins de 12 ans</h3><span class="duration">30 min</span><span class="price">15 €</span></div>
         <div class="service"><h3>Coupe étudiant</h3><span class="duration">30 min</span><span class="price">18 €</span></div>
       </div>
-      <p style="font-size:11px;color:#777;margin-top:18px">Tarifs et durées affichés à titre indicatif, selon la fiche Planity consultée. Vérifiez les prestations disponibles lors de la réservation.</p>
+      <p style="font-size:11px;color:#777;margin-top:18px">Tarifs et durées affichés à titre indicatif. Vérifiez les prestations disponibles lors de la réservation.</p>
     </div>
   </section>
 
@@ -115,48 +117,6 @@
       <div class="about-copy">
         <div class="kicker">L'esprit du salon</div>
         <h2>Un moment<br>à part.</h2>
-        <p>Installée au cœur de Castelnau-de-Médoc, L'A-Barbière vous accueille dans une ambiance conviviale. Amélie met son savoir-faire au service des coupes et de l'entretien de la barbe, pour les hommes, les étudiants et les plus jeunes.</p>
-        <div class="quote">« Votre style, votre personnalité. Le souci du détail à chaque rendez-vous. »</div>
-        <a class="btn outline" href="https://www.planity.com/la-barbiere-33480-castelnau-de-medoc" target="_blank" rel="noopener">Découvrir sur Planity</a>
-      </div>
-    </div>
-  </section>
-
-  <section class="booking">
-    <div class="wrap">
-      <div class="kicker">Votre prochain rendez-vous</div>
-      <h2>Prêt à rafraîchir<br>votre style ?</h2>
-      <p>Choisissez votre prestation et votre créneau en quelques clics. La réservation en ligne est disponible 24h/24 sur Planity.</p>
-      <a class="btn" href="https://www.planity.com/la-barbiere-33480-castelnau-de-medoc" target="_blank" rel="noopener">Réserver sur Planity ↗</a>
-    </div>
-  </section>
-
-  <section id="contact">
-    <div class="wrap">
-      <div class="section-head"><div><div class="kicker">Nous trouver</div><h2>À bientôt<br>au salon.</h2></div><p class="intro">L'A-Barbière vous accueille à Castelnau-de-Médoc. Retrouvez l'itinéraire et les disponibilités sur Planity.</p></div>
-      <div class="contact-grid">
-        <div>
-          <div class="contact-item"><small>Adresse</small><strong>1 Rue de l'Église<br>33480 Castelnau-de-Médoc</strong></div>
-          <div class="contact-item"><small>Réservation</small><strong><a href="https://www.planity.com/la-barbiere-33480-castelnau-de-medoc" target="_blank" rel="noopener">Réserver en ligne sur Planity ↗</a></strong></div>
-          <div class="contact-item"><small>Évaluations Planity</small><strong>5,0 / 5 · 47 avis</strong></div>
-          <a class="btn outline" style="margin-top:20px" href="https://www.google.com/maps/search/?api=1&query=1+Rue+de+l%27Eglise+33480+Castelnau-de-Medoc" target="_blank" rel="noopener">Voir l'itinéraire ↗</a>
-        </div>
-        <div>
-          <div class="kicker">Horaires affichés sur Planity</div>
-          <table class="hours">
-            <tr><td>Lundi</td><td>09:30 – 19:00</td></tr>
-            <tr><td>Mardi</td><td>09:30 – 19:00</td></tr>
-            <tr><td>Mercredi</td><td>09:30 – 12:30</td></tr>
-            <tr><td>Jeudi</td><td>09:30 – 19:00</td></tr>
-            <tr><td>Vendredi</td><td>09:30 – 19:00</td></tr>
-            <tr><td>Samedi</td><td>Fermé</td></tr>
-            <tr><td>Dimanche</td><td>Fermé</td></tr>
-          </table>
-        </div>
-      </div>
-    </div>
-  </section>
-</main>
-<footer><div class="wrap footer-inner"><span>© L'A-BARBIÈRE — CASTELNAU-DE-MÉDOC</span><span>Réservation en ligne · Planity</span></div></footer>
-</body>
-</html>
+        <p id="salon-description">Installée au cœur de Castelnau-de-Médoc, L'A-Barbière vous accueille dans une ambiance conviviale. Amélie met son savoir-faire au service des coupes et de l'entretien de la barbe, pour les hommes, les étudiants et les plus jeunes.</p>
+        <div class="quote" id="salon-quote">« Votre style, votre personnalité. Le souci du détail à chaque rendez-vous. »</div>
+        <a class="btn outline planity-link" href="https://www.planity.com/la-barbiere-33480-castelnau-de-medoc" target="_blank" rel="noopener">Découvrir sur Planity
