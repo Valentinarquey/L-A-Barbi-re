@@ -1,0 +1,51 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+locale: "fr"
+
+collections:
+  - name: "site"
+    label: "Contenu du site"
+    files:
+      - name: "contenu"
+        label: "Modifier le site"
+        file: "content/site.yml"
+        fields:
+          - label: "Présentation"
+            name: "presentation"
+            widget: "object"
+            fields:
+              - { label: "Accroche", name: "accroche", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Texte du salon", name: "texte_salon", widget: "text" }
+              - { label: "Citation", name: "citation", widget: "string" }
+
+          - label: "Prestations"
+            name: "prestations"
+            widget: "list"
+            fields:
+              - { label: "Nom", name: "nom", widget: "string" }
+              - { label: "Durée", name: "duree", widget: "string" }
+              - { label: "Prix", name: "prix", widget: "string" }
+
+          - label: "Coordonnées"
+            name: "contact"
+            widget: "object"
+            fields:
+              - { label: "Adresse", name: "adresse", widget: "string" }
+              - { label: "Lien Planity", name: "planity", widget: "string" }
+
+          - label: "Horaires"
+            name: "horaires"
+            widget: "list"
+            fields:
+              - { label: "Jour", name: "jour", widget: "string" }
+              - { label: "Horaires", name: "heures", widget: "string" }
+
+          - label: "Photo du salon"
+            name: "photo_salon"
+            widget: "image"
