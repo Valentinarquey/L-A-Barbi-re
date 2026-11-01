@@ -22,6 +22,9 @@ prestations:
   - nom: Coupe étudiant
     duree: 30 min
     prix: 18 €
+    - name: Coupe + barbe étudiant
+  price: 29 €
+  duration: 1h
 contact:
   adresse: 1 Rue de l'Église, 33480 Castelnau-de-Médoc
   planity: https://www.planity.com/la-barbiere-33480-castelnau-de-medoc
