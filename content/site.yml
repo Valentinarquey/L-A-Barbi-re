@@ -9,7 +9,7 @@ presentation:
 prestations:
   - nom: Coupe homme
     duree: 30 min
-    prix: 23 €
+    prix: 24 €
   - nom: Taille de barbe
     duree: 30 min
     prix: 15€
