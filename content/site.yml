@@ -1,18 +1,10 @@
-presentation:
-  accroche: Une coupe nette, une barbe soignée, un moment pour soi.
-  description: Retrouvez Amélie chez L'A-Barbière, au cœur de Castelnau-de-Médoc.
-  texte_salon: Installée au cœur de Castelnau-de-Médoc, L'A-Barbière vous
-    accueille dans une ambiance conviviale. Amélie met son savoir-faire au
-    service des coupes et de l'entretien de la barbe, pour les hommes, les
-    étudiants et les plus jeunes.
-  citation: Votre style, votre personnalité. Le souci du détail à chaque rendez-vous.
 prestations:
   - nom: Coupe homme
     duree: 30 min
     prix: 24 €
   - nom: Taille de barbe
     duree: 30 min
-    prix: 15€
+    prix: 15 €
   - nom: Coupe & taille de barbe
     duree: 1 h
     prix: 34 €
@@ -22,9 +14,9 @@ prestations:
   - nom: Coupe étudiant
     duree: 30 min
     prix: 18 €
-    - name: Coupe + barbe étudiant
-  price: 29 €
-  duration: 1h
+  - nom: Coupe + barbe étudiant
+    duree: 1 h
+    prix: 29 €
 contact:
   adresse: 1 Rue de l'Église, 33480 Castelnau-de-Médoc
   planity: https://www.planity.com/la-barbiere-33480-castelnau-de-medoc
